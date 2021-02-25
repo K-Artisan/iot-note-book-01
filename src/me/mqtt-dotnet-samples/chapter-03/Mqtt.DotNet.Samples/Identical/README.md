@@ -1,0 +1,10 @@
+﻿# 说明
+
+
+
+接下来看一下如果两个Client使用相同的Client Identifier会发生什么事情。我们把代码稍微调整下，在连接成功时保持连接，然后捕获offline事件，在Client的连接被关闭时打印出来。
+然后打开两个终端
+
+在MQTT协议中，两个Client使用相同的Client Identifier进行连接时，如果第二个Client连接成功，Broker会关闭与第一个Client的连接。
+由于我们使用的MQTT库实现了断线重连功能，因此当连接被Broker关闭时，Client会尝试重新连接，结果就是这两个Client交替地把对方顶下线，我们就会看到上面所示的打印输出。因此，在实际应用中，一定要保证每一个设备使用的Client Identifier都是唯一的。
+如果你观察到一个Client不停地上线和下线，那么就很有可能是由于Client Identifier冲突造成的。

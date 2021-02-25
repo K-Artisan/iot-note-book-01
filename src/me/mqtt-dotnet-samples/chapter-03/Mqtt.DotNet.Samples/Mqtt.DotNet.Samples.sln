@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistentConnection", "PersistentConnection\PersistentConnection.csproj", "{9783BB4B-C193-40C6-9ACD-E970AA68518B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoPersistenConnection", "NoPersistenConnection\NoPersistenConnection.csproj", "{1A0560F9-119D-49D9-B9DA-865B91291ADB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mqtt.ConnectDemo", "Mqtt.ConnectDemo\Mqtt.ConnectDemo.csproj", "{2160CAC4-E740-436A-8161-B9EC2AF3DE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identical", "Identical\Identical.csproj", "{A8708C53-704C-45B6-BB1C-D1DE70A23153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9783BB4B-C193-40C6-9ACD-E970AA68518B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9783BB4B-C193-40C6-9ACD-E970AA68518B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9783BB4B-C193-40C6-9ACD-E970AA68518B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9783BB4B-C193-40C6-9ACD-E970AA68518B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0560F9-119D-49D9-B9DA-865B91291ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0560F9-119D-49D9-B9DA-865B91291ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0560F9-119D-49D9-B9DA-865B91291ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0560F9-119D-49D9-B9DA-865B91291ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2160CAC4-E740-436A-8161-B9EC2AF3DE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2160CAC4-E740-436A-8161-B9EC2AF3DE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2160CAC4-E740-436A-8161-B9EC2AF3DE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2160CAC4-E740-436A-8161-B9EC2AF3DE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8708C53-704C-45B6-BB1C-D1DE70A23153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8708C53-704C-45B6-BB1C-D1DE70A23153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8708C53-704C-45B6-BB1C-D1DE70A23153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8708C53-704C-45B6-BB1C-D1DE70A23153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95BF17FD-E329-4A0C-B655-A0B8D73FC730}
+	EndGlobalSection
+EndGlobal
